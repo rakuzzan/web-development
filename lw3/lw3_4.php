@@ -49,7 +49,7 @@ if ($email !== null)
             }
             else
             {
-                fwrite($fileMode, "First name:" . "\n");
+                fwrite($fileMode, "First name: " . "\n");
             }
             if ($lastName !== "")
             {
@@ -57,7 +57,7 @@ if ($email !== null)
             }
             else
             {
-                fwrite($fileMode, "Last name:" . "\n");
+                fwrite($fileMode, "Last name: " . "\n");
             }
             fwrite($fileMode, "Email: " . $email . "\n");
             if ($age !== "")
@@ -66,7 +66,7 @@ if ($email !== null)
             }
             else
             {
-                fwrite($fileMode, "Age:" . "\n");
+                fwrite($fileMode, "Age: " . "\n");
             }
             fclose($fileMode);
         }

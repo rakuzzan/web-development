@@ -8,7 +8,7 @@ function PasswordStrength(string $password): ?int
     $countUpperCaseChars = 0;
     $countLowerCaseChars = 0;
 
-    for ($i = 0; $i <= $lenPassword-1; $i++)
+    for ($i = 0; $i < $lenPassword; $i++)
     {
         if (is_numeric($password[$i]))
         {
@@ -18,28 +18,28 @@ function PasswordStrength(string $password): ?int
         {
             $countUpperCaseChars++;
         }
-        if (ctype_lower($password[$i]))
+        if (ctype_lower($password[$i])) 
         {
             $countLowerCaseChars++;
         }
     }
 
-    if ($lenPassword <> 0)
+    if ($lenPassword !== 0)
     {
         $reliability = $lenPassword * 4; //прибавляем количество символов * 4
     }
-    if ($countNum <> 0)
+    if ($countNum !== 0)
     {
         $reliability += $countNum * 4; //прибавляем количество цифр * 4
     }
-    if ($countUpperCaseChars <> 0)
+    if ($countUpperCaseChars !== 0)
     {
         if (!ctype_upper($password))
         {
             $reliability += ($lenPassword - $countUpperCaseChars) * 2; //прибавляем количество символов - кол-во символов в верхнем регистре * 2
         }
     }
-    if ($countLowerCaseChars <> 0)
+    if ($countLowerCaseChars !== 0)
     {
         if(!ctype_lower($password))
         {
@@ -56,7 +56,7 @@ function PasswordStrength(string $password): ?int
     }
     foreach (count_chars($password, 1) as $i => $value) 
     {
-        if ($value <> 1)
+        if ($value !== 1)    
         {
             $reliability -= $value; //вычитаем кол-во повторяющихся символов
         }

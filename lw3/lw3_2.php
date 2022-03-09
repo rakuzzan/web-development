@@ -1,12 +1,19 @@
 <?php
+
 header('Content-Type: text/plain');
 
 function CheckIdent($text){
+   if (($text === null) or ($text === ''))
+   {
+      echo 'empty string';
+      return;
+   }
    if(!ctype_alpha($text[0])){
       echo 'no идендификатор не может начинаться с ', $text[0];
       return;
    }
-   for($i = 0; $i < strlen($text); $i++){
+   for($i = 0; $i < strlen($text); $i++)
+      {
       if(!ctype_alpha($text[$i]) && !is_numeric($text[$i])){
          echo 'no символ ', $text[$i], ' является недопустимым символом в индендефикаторе';
          return;
