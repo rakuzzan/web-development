@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="rus">
 <head>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
   <title>First styled page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1 class="logo">Don`t <span class="span_pink">do</span> it</h1>
+    <img src="images/Don`t do it.svg" alt="img">
     <nav>
       <ul class="navigation">
-        <li class="point_not_decoration"><a href="#" class="point__link_not_decoration">Что будет на курсе?</a></li>
-        <li class="point_not_decoration"><a href="#" class="point__link_not_decoration">Вопросы</a></li>
-        <li class="point_not_decoration"><a href="#" class="point__link_not_decoration">Автор</a></li>
+        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Что будет на курсе?</a></li>
+        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Вопросы</a></li>
+        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Автор</a></li>
       </ul>
     </nav>
-    <div class="button button_short">Записаться на курс</div>
+    <button class="button button_short">Записаться на курс</button>
   </header>
   <main>
-    <div>
+    <section>
       <div>
         <p class="headliner">Не <span class="span_pink">делай</span> это</p>
-        <p class="text">Онлайн-курс для творческих людей, о том, как управлять своим временем</p>
-        <div class="button button_long">Записаться на курс</div>
+        <p class="under-headliner">Онлайн-курс для творческих людей, о том, как управлять своим временем</p>
+        <button class="button button_long">Записаться на курс</button>
       </div>
       <img class="main_img" src="images/main_img.png" alt="img">
-    </div>
+    </section>
 
-    <div class="for_whom">
-      <div class="for_whom__block1">
+    <section class="for-whom">
+      <div class="for-whom__block1">
         <img src="images/time.svg" alt="time">
-        <p class="for_whom__description">Для тех, у кого слишком много идей и слишком мало времени</p>
+        <p class="for-whom__description">Для тех, у кого слишком много идей и слишком мало времени</p>
       </div>
 
-      <div class="for_whom__block2">
+      <div class="for-whom__block2">
         <img src="images/notepad.svg" alt="notepad">
-        <p class="for_whom__description">Метод «списка не дел», который позволит успевать и реализовывать</p>
+        <p class="for-whom__description">Метод «списка не дел», который позволит успевать и реализовывать</p>
       </div>
 
-      <div class="for_whom__block3">
+      <div class="for-whom__block3">
         <img src="images/target.svg" alt="target">
-        <p class="for_whom__description">Курс научит творческих людей сосредоточиваться</p>
+        <p class="for-whom__description">Курс научит творческих людей сосредоточиваться</p>
       </div>
-    </div>
+    </section>
 
-    <div class="motivation">
+    <section class="motivation">
       <div class="motivation__block1">
         <img src="images/finances.png" alt="finances">
-        <div class="motivation__block1__num1">
+        <div class="motivation__block1_num1">
           <p class="motivation__heading">Ты не успеешь</p>
-          <p class="text">
+          <p class="text under-motivation">
             Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей.
             Как прибавить суткам часы, рассмотрим в нашем курсе.
           </p>
@@ -59,49 +65,45 @@
 
       <div class="motivation__block2">
         <img src="images/mindBlowing.png" alt="mindBlowing">
-        <div class="motivation__block1__num2">
+        <div class="motivation__block1_num2">
           <p class="motivation__heading">Опять дедлайн</p>
-          <p class="text">В мире, где столько всего интересного, когда же успевать жить?</p>
+          <p class="text under-motivation">В мире, где столько всего интересного, когда же успевать жить?</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="description">
+    <section class="description">
       <p class="description__heading">На курсе ты <span class="span_pink">сможешь</span></p>
-      <div class="description__first-line">
-        <div class="description__block description__block1">
+        <div class="description__block">
           <img src="images/one_finger.svg" alt="">
-          <p class="text">Понять, что нужно делать, а что делать не стоит.</p>
+          <p class="text under-description">Понять, что нужно делать, а что<br> делать не стоит.</p>
         </div>
 
-        <div class="description__block description__block2">
+        <div class="description__block">
           <img src="images/two_fingers.svg" alt="">
-          <p class="text">Перестать себя искусственно ограничивать.</p>
+          <p class="text under-description">Перестать себя искусственно<br> ограничивать.</p>
         </div>
 
-        <div class="description__block description__block3">
+        <div class="description__block">
           <img src="images/three_fingers_first.svg" alt="">
-          <p class="text">Определить сильные стороны и начать использовать слабые.</p>
+          <p class="text under-description">Определить сильные стороны<br> и начать использовать слабые.</p>
         </div>
-      </div>
 
-      <div class="description__second-line">
-        <div class="description__block description__block4">
+        <div class="description__block">
           <img src="images/four_fingers.svg" alt="">
-          <p class="text">Научиться достигать любой цели в 3 понятных шага.</p>
+          <p class="text under-description">Научиться достигать любой цели<br> в 3 понятных шага.</p>
         </div>
 
-        <div class="description__block description__block5">
+        <div class="description__block ">
           <img src="images/five_fingers.svg" alt="">
-          <p class="text">Сотрудничать эффективно и с правильными людьми.</p>
+          <p class="text under-description">Сотрудничать эффективно<br> и с правильными людьми.</p>
         </div>
 
-        <div class="description__block description__block6">
+        <div class="description__block">
           <img src="images/three_fingers_sec.svg" alt="">
-          <p class="text">Оптимизировать общение с клиентами и проведение совещаний.</p>
+          <p class="text under-description">Оптимизировать общение с<br> клиентами и проведение совещаний.</p>
         </div>
-      </div>
-    </div>
+    </section>
 
   </main>
   <footer>
