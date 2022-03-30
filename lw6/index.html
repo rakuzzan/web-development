@@ -2,58 +2,54 @@
 <html lang="rus">
 <head>
   <meta charset="UTF-8"/>
-  <link rel="stylesheet" href="css/style.css">
+  <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
   <title>First styled page</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-  </style>
 </head>
 <body>
   <header>
     <img src="images/Don`t do it.svg" alt="img">
     <nav>
-      <ul class="navigation">
-        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Вопросы</a></li>
-        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Что будет на курсе?</a></li>
-        <li class="point_not-decoration"><a href="#" class="point__link_not-decoration">Автор</a></li>
+      <ul>
+        <li><a href="#" class="point__link_not-decoration">Что будет на курсе?</a></li>
+        <li><a href="#" class="point__link_not-decoration">Вопросы</a></li>
+        <li><a href="#" class="point__link_not-decoration">Автор</a></li>
       </ul>
+      <button class="button button_short">Записаться на курс</button>
     </nav>
-    <button class="button button_short">Записаться на курс</button>
   </header>
   <main>
     <section class="first-section">
-      <div>
-        <p class="headliner">Не <span class="span_pink">делай</span> это</p>
+      <div class="main-idea">
+        <h1 class="headliner">Не <span class="span_pink">делай</span> это</h1>
         <p class="under-headliner">Онлайн-курс для творческих людей, о том, как управлять своим временем</p>
         <button class="button button_long">Записаться на курс</button>
       </div>
-      <img class="main_img" src="images/main_img.png" alt="img">
+      <img class="main-img" src="images/main_img.png" alt="img">
     </section>
 
     <section class="for-whom">
-      <div class="for-whom__block1">
-        <img src="images/time.svg" alt="time">
-        <p class="for-whom__description">Для тех, у кого слишком много идей и слишком мало времени</p>
-      </div>
+      <div class="for-whom_blocks">
+        <div class="for-whom__block1">
+          <img src="images/time.svg" alt="time">
+          <p class="for-whom__description">Для тех, у кого слишком много идей и слишком мало времени</p>
+        </div>
 
-      <div class="for-whom__block2">
-        <img src="images/notepad.svg" alt="notepad">
-        <p class="for-whom__description">Метод «списка не дел», который позволит успевать и реализовывать</p>
-      </div>
+        <div class="for-whom__block2">
+          <img src="images/notepad.svg" alt="notepad">
+          <p class="for-whom__description">Метод «списка не дел», который позволит успевать и реализовывать</p>
+        </div>
 
-      <div class="for-whom__block3">
-        <img src="images/target.svg" alt="target">
-        <p class="for-whom__description">Курс научит творческих людей сосредоточиваться</p>
+        <div class="for-whom__block3">
+          <img src="images/target.svg" alt="target">
+          <p class="for-whom__description">Курс научит творческих людей сосредоточиваться</p>
+        </div>
       </div>
     </section>
 
     <section class="motivation">
       <div class="motivation__block1">
-        <img src="images/finances.png" alt="finances">
+        <img class="finances" src="images/finances.png" alt="finances">
         <div class="motivation__block1_num1">
           <p class="motivation__heading">Ты не успеешь</p>
           <p class="text under-motivation">
@@ -64,7 +60,7 @@
       </div>
 
       <div class="motivation__block2">
-        <img src="images/mindBlowing.png" alt="mindBlowing">
+        <img class="mind-blow" src="images/mindBlowing.png" alt="mindBlowing">
         <div class="motivation__block1_num2">
           <p class="motivation__heading">Опять дедлайн</p>
           <p class="text under-motivation">В мире, где столько всего интересного, когда же успевать жить?</p>
