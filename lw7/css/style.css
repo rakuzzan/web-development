@@ -9,7 +9,7 @@
     display: flex;
     margin: 30px 120px 0px 120px;
     justify-content: space-between;
-    width: 1680px;
+    max-width: 1680px;
 }
 
 .text
@@ -41,7 +41,7 @@
 
 }
 
-.point__link_no-decoration {
+.point__link_not-decoration {
     text-decoration: none;
     color: #000;
     display: inline;
@@ -285,4 +285,16 @@
     margin-top: 288px;
     padding: 31px 841px 35px 876px;
     color: #fff;
+}
+@media (max-width: 1366px)
+{
+    .header
+    {
+        margin: 80%;
+        width: 80%;
+    }
+    .header__logo
+    {
+        width: 80%;
+    }
 }

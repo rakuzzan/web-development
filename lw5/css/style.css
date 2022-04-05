@@ -1,29 +1,29 @@
 header{
-  display: flex;
-  position: absolute;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1680px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1680px;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  display: inline;
-  flex-direction: row;
-  justify-content: space-between;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .headliner {
-  font: 600 100px/122.35% 'Montserrat', sans-serif;
+    font: 600 100px/122.35% 'Montserrat', sans-serif;
 }
 
 .text {
-  font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*.first-section{*/
@@ -35,117 +35,117 @@ li {
 /*}*/
 
 .span_pink {
-  color: #EE58B6;
+    color: #EE58B6;
 }
 
 .under-headliner{
-  font: 400 26px/1.2 'Roboto Condensed', sans-serif;
+    font: 400 26px/1.2 'Roboto Condensed', sans-serif;
 
 }
 
 .navigation{
-  font: 500 16px/1.25 'Montserrat', sans-serif;
+    font: 500 16px/1.25 'Montserrat', sans-serif;
 }
 
 .point_not-decoration {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .point__link_not-decoration {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 .button {
-  height: 55px;
-  box-sizing: border-box;
-  border-radius: 4.59px;
-  background-color: #05090C;
-  color: #fff;
-  font: 600 16px 'Montserrat', sans-serif;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 4.59px;
+    background-color: #05090C;
+    color: #fff;
+    font: 600 16px 'Montserrat', sans-serif;
 }
 
 .button_short {
-  width: 247px;
+    width: 247px;
 }
 
 .button_long {
-  width: 332px;
+    width: 332px;
 }
 
 .main_img {
-  size: 762px 636.87px;
+    size: 762px 636.87px;
 }
 
 .for-whom {
-  background-color: #000;
-  color: #fff;
+    background-color: #000;
+    color: #fff;
 }
 
 .for-whom__block1 {
-  width: 285px;
-  height: 145px;
+    width: 285px;
+    height: 145px;
 }
 
 .for-whom__block2 {
-  width: 337px;
-  height: 132px;
+    width: 337px;
+    height: 132px;
 }
 
 .for-whom__block3 {
-  width: 293px;
-  height: 132px;
+    width: 293px;
+    height: 132px;
 }
 
 .for-whom__description {
-  font: 400 22px/1.2 'Roboto Condensed', sans-serif;
+    font: 400 22px/1.2 'Roboto Condensed', sans-serif;
 }
 
 .motivation_block1__num1 {
-  width: 574px;
-  height: 134.97px;
+    width: 574px;
+    height: 134.97px;
 }
 
 .motivation_block1__num2 {
-  width: 574px;
-  height: 131.1px;
+    width: 574px;
+    height: 131.1px;
 }
 
 .motivation__heading {
-  font: 500 48px/126.06% 'Montserrat', sans-serif;
+    font: 500 48px/126.06% 'Montserrat', sans-serif;
 }
 
 .description__heading {
-  font: 500 48px/59px 'Montserrat', sans-serif;
+    font: 500 48px/59px 'Montserrat', sans-serif;
 }
 
 .under-motivation{
-  font: 400 18px/1.35 'Roboto Condensed', sans-serif;
+    font: 400 18px/1.35 'Roboto Condensed', sans-serif;
 }
 
 .description__block {
-  width: 358px;
-  height: 190px;
-  background-color: #000;
-  color: #fff;
+    width: 358px;
+    height: 190px;
+    background-color: #000;
+    color: #fff;
 }
 
 .description__block {
-  top: 101.23px;
-  bottom: 37.72px;
-  left: 39.25px;
+    top: 101.23px;
+    bottom: 37.72px;
+    left: 39.25px;
 }
 
 .under-description{
-  font: 400 18px/1.17 'Roboto Condensed', sans-serif;
+    font: 400 18px/1.17 'Roboto Condensed', sans-serif;
 }
 
 footer {
-  background-color: #000;
-  color: #fff;
-  height: 108px;
+    background-color: #000;
+    color: #fff;
+    height: 108px;
 }
 
 .footer__text {
-  font: 700 30.8354px/1.22 'Montserrat', sans-serif;
+    font: 700 30.8354px/1.22 'Montserrat', sans-serif;
 }
