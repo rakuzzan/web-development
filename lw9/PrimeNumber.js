@@ -2,18 +2,8 @@ function isPrime(num)
 {
     if (Array.isArray(num))
         for(let i = 0; i < num.length; i++)
-            if (num[i] > 2)
-                for(let k = 2, s = Math.sqrt(num[i]); k <= s; k++)
-                    if(num[i] % k === 0)
-                    {
-                        console.log(num[i] + " isn't Prime number")
-                        break
-                    }
-                    else
-                    {
-                        console.log(num[i] + " is Prime number")
-                        break
-                    }
+            if (num[i] > 3)
+                isPrimeNumber(num[i])
             else
                 console.log(num[i] + " is Prime number")
     else if (Number.isInteger(num))
@@ -25,4 +15,12 @@ function isPrime(num)
     }
     else
         console.log("Wrong input")
+}
+
+function isPrimeNumber(Numb)
+{
+    for(let k = 2, s = Math.sqrt(Numb); k <= s; k++)
+        if(Numb % k === 0)
+            return console.log(Numb + " isn't Prime number")
+    console.log(Numb + " is Prime number")
 }
