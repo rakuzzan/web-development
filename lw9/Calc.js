@@ -1,59 +1,81 @@
-function validateParentheses(expression) {
-    const parentheses = expression.replace(/[^()]/g, '');
-    const stack = [];
-    console.log(parentheses);
-    for (let i = 0; i < parentheses.length; i++) {
-        if (parentheses[i] == '(') {
-            stack.push('(');
-        } else {
-            if (stack.length > 0) {
-                stack.pop();
-            } else {
-                return false;
+function checkClosedBrackets(str)
+{
+    let openedBracketsCounter = 0
+    for (let i = 0; i < str.length; i++)
+    {
+        if (str[i] === '(')
+            openedBracketsCounter++
+        else if (str[i] === ')')
+        {
+            if (openedBracketsCounter === 0)
+                return false
+            openedBracketsCounter--
+        }
+    }
+    return true
+}
+
+function makeCalc(action, a, b) {
+    switch (action) {
+        case '+':
+            return a + b
+        case '-':
+            return a - b
+        case '*':
+            return a * b
+        case '/':
+            if (b !== 0)
+                return a / b
+            else
+                console.log('Ошибка! Деление на ноль!')
+    }
+}
+
+
+function calc(str) {
+    const actions = ['+', '-', '*', '/']
+    let result = Number
+    let isOver
+    let stack = []
+    let b = ""
+
+    if (!checkClosedBrackets(str))
+    {
+        console.log('Ошибка ввода. Пропущена скобка')
+        return
+    }
+
+    for (let i = 0; i < str.length; i++)
+    {
+        if (actions.indexOf(str[i]) !== -1)
+            stack.push(str[i]);
+        else if (!isNaN(parseInt(str[i])))
+        {
+            b += str[i];
+            if (isNaN(parseInt(str[i+1])))
+            {
+                while (!isNaN(parseInt(stack[stack.length-1])))
+                {
+                    const a = stack.pop();
+                    const action = stack.pop()
+                    if (action === undefined)
+                    {
+                        console.log('Ошибка ввода. Пропущено действие')
+                        return
+                    }
+                    else
+                        b = makeCalc(action, parseFloat(a), parseFloat(b))
+                }
+                stack.push(b)
+                b = ""
             }
         }
     }
-    return true;
-}
 
-function validateSymbols(expression) {
-    const invalidSymbols = expression.replace(/[0-9, (, ), +, -, /, *]/g, '');
-    return invalidSymbols === '' ? true : false;
-}
-
-function calculateOperation(operator, operand1, operand2) {
-    if (operator === '+') return operand1 + operand2;
-    if (operator === '-') return operand1 - operand2;
-    if (operator === '*') return operand1 * operand2;
-    if (operator === '/') return operand1 / operand2;
-}
-
-function calc(str) {
-    str = str.replace(/[(, )]/g, ' ');
-    str = str.replace(/ +/g, ' ').trim();
-    const operators = ['+', '-', '*', '/'];
-    const arr = str.split(' ');
-
-    for (let i = 0; i < arr.length; i++) {
-        if (!isNaN(arr[i])) {
-            arr[i] = parseFloat(arr[i]);
-        }
-    }
-
-    let i = 0;
-    while (i < arr.length - 2) {
-        if (operators.indexOf(arr[i]) != -1 && !isNaN(arr[i+1]) && !isNaN(arr[i+2])) {
-            arr.splice(i, 3, calculateOperation(arr[i], arr[i + 1], arr[i + 2]));
-            i = 0;
-            continue;
-        }
-        i++;
-    }
-
-    if (arr.length > 1 || isNaN(arr[0])) {
-        return 'Wrong input';
-    }
-    else {
-        return arr[0];
-    }
+    result = stack.pop()
+    isOver = stack.pop()
+    if (isOver === undefined)
+        console.log(result)
+    else
+        console.log('Ошибка ввода. Некорректные аргументы!')
 }
