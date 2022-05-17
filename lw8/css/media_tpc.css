@@ -1,0 +1,326 @@
+@media screen and (max-width:1025px )
+{
+    .header__container
+    {
+        min-height: 45px;
+        max-width: 900px;
+    }
+
+    .header__logo
+    {
+        font: 700 25px/1.22 'Montserrat', sans-serif;
+        margin-left: 0px;
+    }
+
+    .header__button
+    {
+        flex: 0 0 210px
+    }
+
+    .menu__link
+    {
+        margin-right: 20px;
+        font: 500 15px/1 'Montserrat', sans-serif;
+        padding-left: 15px;
+    }
+
+    .menu
+    {
+        margin-right: 0px;
+    }
+
+    .button
+    {
+        font: 600 15px 'Montserrat', sans-serif;
+        padding: 15px 25px;
+        border-radius: 7px;
+    }
+
+    .dont-do-it__block
+    {
+        padding-top: 90px;
+        max-width: 1480px;
+        margin: 0 auto;
+        padding-left: 5px;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+
+    }
+
+    .dont-do-it__block-content
+    {
+        padding: 80px 0;
+    }
+
+    .dont-do-it__block-title
+    {
+        font: 600 100px/1.22 'Montserrat', sans-serif;
+        min-width: 400px;
+        margin-bottom: 15px;
+    }
+
+    .dont-do-it__block-text
+    {
+        font: 400 32px/1.2 'Roboto', sans-serif;
+        max-width: 590px;
+        letter-spacing: -1.5px;
+        padding-bottom: 36px;
+    }
+
+    .dont-do-it__block-button
+    {
+        font: 600 20px 'Montserrat', sans-serif;
+        padding: 19px 82px;
+        max-width: 390px;
+    }
+
+    .dont-do-it__image
+    {
+        max-height: 732px;
+        max-width: 845px;
+        padding: 0 ;
+    }
+
+    .dont-do-img
+    {
+        max-width: 835px;
+        max-height: 732px;
+    }
+
+    .suitable
+    {
+        min-height: 760px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .suitable__block
+    {
+        display: grid;
+        max-width: 1000px;
+        max-height: 960px;
+
+    }
+
+    .suitable__block_clock
+    {
+        margin-bottom: 40px;
+        max-width: 500px;
+        padding-left: 10%;
+    }
+
+    .suitable__block_notebook
+    {
+        margin-bottom: 40px;
+    }
+
+    .block__img
+    {
+        min-width: 85px;
+        min-height: 85px;
+    }
+
+
+    .block__clock-img
+    {
+        padding: 0 0 20px 43%;
+    }
+
+    .block__clock-text
+    {
+        margin: 0 0 0 35px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .text
+    {
+        font: 400 22px/1.2 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+
+    .block__notebook-img
+    {
+        padding: 0 16px 20px 44%;
+    }
+
+    .block__notebook-text
+    {
+        text-align: center;
+    }
+
+    .suitable__block_target
+    {
+        justify-self: center;
+    }
+
+    .block__target-img
+    {
+        padding: 0 0 20px 47%;
+    }
+
+    .block__target-text
+    {
+        letter-spacing: 0.3px;
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    .no-time
+    {
+        margin: 0 0 98px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .no-time__late
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1136px;
+    }
+
+    .late__img
+    {
+        padding: 45px 0 0 6%;
+    }
+
+    .late_content
+    {
+        padding: 130px 0 160px 4%;
+        text-align: center;
+    }
+
+    .late__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding: 0 0 27px;
+    }
+
+    .late__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+        max-width: 400px;
+        min-width: auto;
+        line-height: 24px;
+        letter-spacing: -0.05px;
+    }
+
+    .no-time__deadline
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1136px;
+    }
+
+    .deadline-img
+    {
+        padding: 35px 29%;
+    }
+
+    .deadline_content
+    {
+        padding: 135px 0 0 0;
+        text-align: center;
+    }
+
+    .deadline__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding-bottom: 27px;
+    }
+
+    .deadline__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+    }
+
+    .opportunities
+    {
+        margin: 0;
+    }
+
+    .opportunities__header
+    {
+        font: 500 48px 'Montserrat', sans-serif;
+        min-width: 100%;
+        padding: 0 0 0 10%;
+    }
+
+    .opportunities__table
+    {
+        max-width: 1135px;
+        max-height: 411px;
+        margin: 60px auto 288px auto;
+    }
+
+    .table
+    {
+        box-sizing: border-box;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 338px 338px;
+        grid-template-rows: 190px 190px;
+        justify-content: center;
+    }
+
+    .table__block
+    {
+        max-width: 458px;
+        color: #fff;
+        background: #000000;
+        border-radius: 7px;
+        max-height: 242px;
+        display: grid;
+        justify-items: start;
+        padding: 34px 33px 34px 41px;
+    }
+
+    .table__text
+    {
+        font: 400 16px 'Roboto', sans-serif;
+        max-height: 52px;
+        max-width: 287px;
+        margin-top: 10px;
+    }
+
+    .table__image-first
+    {
+        max-width: 37px;
+        max-height: 48px;
+    }
+
+    .table__image-second
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+    .table__image-third
+    {
+        max-width: 45px;
+        max-height: 48px;
+    }
+
+    .table__image-fourth
+    {
+        max-width: 40px;
+        max-height: 48px;
+    }
+
+    .table__image-five
+    {
+        max-width: 49px;
+        max-height: 48px;
+    }
+
+    .table__image-six
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+
+}

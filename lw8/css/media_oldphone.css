@@ -1,0 +1,353 @@
+@media screen and (max-width:520px )
+{
+    .header__container
+    {
+        min-height: 20px;
+        max-width: 480px;
+        text-align: center;
+    }
+
+    .header__logo
+    {
+        font: 700 16px/1.22 'Montserrat', sans-serif;
+        margin-left: 0;
+    }
+
+
+    .header__button
+    {
+        flex: 0 0 130px
+    }
+
+    .menu__link
+    {
+        margin-right: 5px;
+        font: 500 10px/1 'Montserrat', sans-serif;
+        padding-left: 10px;
+    }
+
+    .menu
+    {
+        margin-right: 20px;
+    }
+
+    .menu__list
+    {
+        display: flex;
+        flex-direction: row;
+        max-width: 240px;
+    }
+
+    .menu__item
+    {
+        font-size: 16px;
+    }
+
+    .button
+    {
+        font: 600 10px 'Montserrat', sans-serif;
+        padding: 10px 10px;
+        border-radius: 7px;
+    }
+
+    .dont-do-it__block-title
+    {
+        font: 600 55px/1.22 'Montserrat', sans-serif;
+        min-width: 340px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .dont-do-it__block-text
+    {
+        font: 400 19px/1.2 'Roboto', sans-serif;
+        max-width: 340px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 0 0 36px 0;
+    }
+
+    .dont-do-img
+    {
+        max-width: 340px;
+        max-height: 400px;
+    }
+    .dont-do-it__block-button
+    {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .suitable
+    {
+        min-height: 308px;
+        background-color: white;
+        margin: 0;
+    }
+
+    .suitable__block
+    {
+        border-radius: 7px;
+        margin: 0;
+    }
+
+    .suitable__block_clock
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .suitable__block_notebook
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .suitable__block_target
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .block__notebook-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .block__clock-text
+    {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    .block__clock-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .block__target-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .late-img
+    {
+        max-width: 310px;
+        max-height: 310px;
+    }
+
+    .late_content
+    {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .deadline-img
+    {
+        max-width: 310px;
+        max-height: 600px;
+        padding-right: 3%;
+    }
+
+    .table__block
+    {
+        max-width: 300px;
+        padding: 34px 33px 34px 41px;
+        margin-left: 30px;
+    }
+
+    .opportunities__table
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer__block
+    {
+        padding: 19px 0 20px 69px;
+    }
+}
+
+@media screen and (max-width:360px )
+{
+    .header__container
+    {
+        min-height: 20px;
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .header__logo
+    {
+        font: 700 16px/1.22 'Montserrat', sans-serif;
+        margin-left: 0;
+    }
+
+
+    .header__button
+    {
+        flex: 0 0 130px
+    }
+
+    .menu__link
+    {
+        margin-right: 5px;
+        font: 500 10px/1 'Montserrat', sans-serif;
+        padding-left: 10px;
+    }
+
+    .menu
+    {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .button
+    {
+        font: 600 10px 'Montserrat', sans-serif;
+        padding: 20px 10px;
+        border-radius: 7px;
+    }
+
+    .dont-do-it__block
+    {
+        padding: 150px 0 10px 0;
+    }
+
+    .dont-do-it__block-title {
+        font: 600 32px/1.22 'Montserrat', sans-serif;
+        min-width: 400px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .dont-do-it__block-text {
+        font: 400 16px/1.2 'Roboto', sans-serif;
+        max-width: 310px;
+        letter-spacing: -1.5px;
+        padding:0 0 36px 90px;
+        text-align: center;
+    }
+
+    .dont-do-img {
+        max-width: 300px;
+        max-height: 250px;
+    }
+
+    .dont-do-it__block-button
+    {
+        max-width: 300px;
+        margin: 0 0 0 50px;
+    }
+
+    .suitable
+    {
+        min-height: 308px;
+        background-color: white;
+        margin: 0;
+    }
+
+    .suitable__block
+    {
+        border-radius: 7px;
+        margin: 0;
+    }
+
+    .suitable__block_clock
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .suitable__block_notebook
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .suitable__block_target
+    {
+        background-color: black;
+        border-radius: 7px;
+        padding: 25px 0 25px 0;
+    }
+
+    .block__notebook-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .block__clock-text
+    {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    .block__clock-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .block__target-img
+    {
+        padding: 5px 0 25px 60px;
+    }
+
+    .late-img
+    {
+        max-width: 310px;
+        max-height: 310px;
+    }
+
+    .late_content
+    {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .deadline-img
+    {
+        max-width: 310px;
+        max-height: 600px;
+        padding-right: 10px;
+    }
+
+    .table__block
+    {
+        max-width: 300px;
+        padding: 34px 33px 34px 41px;
+        margin-left: 30px;
+    }
+
+    .opportunities__table
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer__block
+    {
+        padding: 35px 0 20px 69px;
+    }
+}
+
+
+@media screen and (max-width:440px )
+{
+    .menu__list
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

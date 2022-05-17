@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/email.css">
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500" rel="stylesheet">
-   <title>Email</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_email.css">
+    <title>Document</title>
 </head>
+
 <body>
-   <form class="get-file" method="post" action="/file.php">
-      <input type="email" class="get-file__enter-email" name="email" placeholder="Email">
-      <input type="submit" class="get-file__button" value="Получить данные">
-   </form>
+    <section class="main">
+        <form action="email_data.php" method="POST" class="main__form">
+            <input type="email" name="email" id="email" value="" class="form__input" placeholder="Email">
+            <button class="form__button">Получить данные</button>
+        </form>
+    </section>
 </body>
+
 </html>

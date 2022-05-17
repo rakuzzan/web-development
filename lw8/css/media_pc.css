@@ -1,0 +1,719 @@
+@media screen and (max-width:1690px) {
+    .dont-do-it__block {
+        padding-top: 90px;
+        max-width: 1480px;
+        margin: 0 auto;
+        padding-left: 5px;
+    }
+
+    .dont-do-it__block-content {
+        padding: 180px 0 246px 0;
+    }
+
+    .dont-do-it__block-title {
+        font: 600 85px/1.22 'Montserrat', sans-serif;
+        min-width: 660px;
+        margin-bottom: 22px;
+    }
+
+    .dont-do-it__block-text {
+        font: 400 22px/1.2 'Roboto', sans-serif;
+        max-width: 545px;
+        letter-spacing: -1.5px;
+        padding-bottom: 46px;
+    }
+
+    .dont-do-it__block-button {
+        font: 600 15px 'Montserrat', sans-serif;
+        padding: 19px 82px;
+        max-width: 332px;
+    }
+
+    .dont-do-it__image {
+        max-height: 732px;
+        max-width: 845px;
+        padding: 30px 10px 65px 0;
+    }
+
+    .dont-do-img {
+        max-width: 635px;
+        max-height: 632px;
+    }
+
+    .suitable
+    {
+        min-height: 348px;
+    }
+
+    .suitable__block
+    {
+        display: flex;
+        max-height: 145px;
+        padding: 91px 231px 112px 231px;
+    }
+
+    .block__clock-img
+    {
+        padding: 0 120px 20px 113px;
+    }
+
+    .block__img
+    {
+        min-width: 55px;
+        min-height: 55px;
+    }
+
+    .block__clock-text
+    {
+        max-width: 304px;
+        letter-spacing: 0.3px;
+    }
+
+    .text
+    {
+        font: 400 17px/1.2 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+
+    .suitable__block_notebook
+    {
+        padding: 0 73px 0 79px;
+    }
+
+    .block__notebook-img
+    {
+        padding: 0 146px 20px 147px;
+    }
+
+    .block__notebook-text
+    {
+        text-align: center;
+        letter-spacing: 0.1px;
+    }
+
+    .block__target-img
+    {
+        padding: 0 119px 20px 122px;
+    }
+
+    .block__target-text
+    {
+        letter-spacing: 0.3px;
+        padding: 0 0 0 4px;
+        text-align: center;
+    }
+
+    .no-time
+    {
+        margin: 25px 0 98px 13%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .no-time__late
+    {
+        display: flex;
+        align-items: flex-end;
+        max-width: 1136px;
+    }
+
+    .late__img
+    {
+        padding-top: 45px;
+    }
+
+    .late_content
+    {
+        padding: 270px 0 160px 5%;
+    }
+
+    .late__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding: 0 0 27px;
+    }
+
+    .late__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+        max-width: 200px;
+        line-height: 24px;
+        letter-spacing: -0.05px;
+    }
+
+    .no-time__deadline
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1136px;
+    }
+
+    .deadline-img
+    {
+        padding: 35px 70px;
+    }
+
+    .deadline_content
+    {
+        padding: 285px 100px 0 0;
+    }
+
+    .deadline__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding-bottom: 27px;
+    }
+
+    .deadline__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+    }
+
+    .opportunities
+    {
+        margin: 0;
+    }
+
+    .opportunities__header
+    {
+        font: 500 48px 'Montserrat', sans-serif;
+        min-width: 100%;
+        padding: 0 0 0 15%;
+    }
+
+    .opportunities__table
+    {
+        max-width: 1135px;
+        max-height: 411px;
+        margin: 60px auto 288px auto;
+    }
+
+    .table
+    {
+        box-sizing: border-box;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 358px 358px 358px;
+        grid-template-rows: 190px 190px;
+        justify-content: center;
+    }
+
+    .table__block
+    {
+        max-width: 458px;
+        color: #fff;
+        background: #000000;
+        border-radius: 7px;
+        max-height: 242px;
+        display: grid;
+        justify-items: start;
+        padding: 34px 33px 34px 41px;
+    }
+
+    .table__text
+    {
+        font: 400 16px 'Roboto', sans-serif;
+        max-height: 52px;
+        max-width: 287px;
+        margin-top: 10px;
+    }
+
+    .table__image-first
+    {
+        max-width: 37px;
+        max-height: 48px;
+    }
+
+    .table__image-second
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+    .table__image-third
+    {
+        max-width: 45px;
+        max-height: 48px;
+    }
+
+    .table__image-fourth
+    {
+        max-width: 40px;
+        max-height: 48px;
+    }
+
+    .table__image-five
+    {
+        max-width: 49px;
+        max-height: 48px;
+    }
+
+    .table__image-six
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+    .footer__block
+    {
+        padding: 39px 10% 40px 46%;
+    }
+}
+
+@media screen and (max-width:1386px )
+{
+    .header__logo
+    {
+        margin-left: 0;
+    }
+
+    .header__container
+    {
+        min-height: 45px;
+        max-width: 1350px;
+    }
+
+    .menu__link
+    {
+        margin-right: 40px;
+        padding-left: 30px;
+    }
+
+    .header__button
+    {
+        margin-right: 0;
+    }
+
+    .menu
+    {
+        margin-right: 0;
+    }
+
+    .button
+    {
+        font-weight: 300;
+    }
+
+    .dont-do-it__block
+    {
+        padding-top: 90px;
+        max-width: 1480px;
+        margin: 0 auto;
+        padding-left: 5px;
+        justify-content: center;
+    }
+
+    .dont-do-it__block-content
+    {
+        padding: 110px 0 200px 0;
+    }
+
+    .dont-do-it__block-title
+    {
+        font: 600 59px/1.22 'Montserrat', sans-serif;
+        min-width: 400px;
+        margin-bottom: 15px;
+    }
+
+    .dont-do-it__block-text
+    {
+        font: 400 20px/1.2 'Roboto', sans-serif;
+        max-width: 350px;
+        letter-spacing: -1.5px;
+        padding-bottom: 36px;
+    }
+
+    .dont-do-it__block-button
+    {
+        font: 600 15px 'Montserrat', sans-serif;
+        padding: 19px 82px;
+        max-width: 332px;
+    }
+
+    .dont-do-it__image
+    {
+        max-height: 732px;
+        max-width: 845px;
+        padding: 30px 10px 65px 30px ;
+    }
+
+    .dont-do-img
+    {
+        max-width: 550px;
+        max-height: 590px;
+    }
+
+    .suitable 
+    {
+        min-height: 348px;
+    }
+    
+    .suitable__block 
+    {
+        display: flex;
+        max-height: 145px;
+        padding: 91px 131px 112px 131px;
+    }
+    
+    .block__clock-img 
+    {
+        padding: 0 120px 20px 113px;
+    }
+    
+    .block__img 
+    { 
+        min-width: 35px;
+        min-height: 35px;
+    }
+    
+    .block__clock-text 
+    {
+        max-width: 304px;
+        letter-spacing: 0.3px;
+    }
+    
+    .text 
+    {
+        font: 400 17px/1.2 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .suitable__block_notebook 
+    {
+        padding: 0 13px 0 19px;
+    }
+    
+    .block__notebook-img 
+    {
+        padding: 0 146px 20px 147px;
+    }
+    
+    .block__notebook-text 
+    {
+        text-align: center;
+        letter-spacing: 0.1px;
+    }
+    
+    .block__target-img 
+    {
+        padding: 0 119px 20px 122px;
+    }
+    
+    .block__target-text 
+    {
+        letter-spacing: 0.3px;
+        padding: 0 0 0 4px;
+        text-align: center;
+    }
+
+    .no-time
+    {
+        margin: 25px 0 98px 13%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .no-time__late
+    {
+        display: flex;
+        align-items: flex-end;
+        max-width: 1136px;
+    }
+
+    .late__img
+    {
+        padding-top: 45px;
+    }
+
+    .late_content
+    {
+        padding: 270px 0 160px 5%;
+    }
+
+    .late__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding: 0 0 27px;
+    }
+
+    .late__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+        max-width: 400px;
+        min-width: auto;
+        line-height: 24px;
+        letter-spacing: -0.05px;
+    }
+
+    .no-time__deadline
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1136px;
+    }
+
+    .deadline-img
+    {
+        padding: 35px 70px;
+    }
+
+    .deadline_content
+    {
+        padding: 285px 100px 0 0;
+    }
+
+    .deadline__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding-bottom: 27px;
+    }
+
+    .deadline__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+    }
+
+    .footer__block
+    {
+        padding: 39px 10% 40px 41%;
+    }
+}
+
+@media screen and (max-width:1180px)
+{
+    .suitable 
+    {
+        min-height: 760px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .suitable__block 
+    {
+        display: grid;
+        max-width: 700px;
+        max-height: 960px;
+
+    }
+
+    .suitable__block_clock
+    {
+        margin-bottom: 40px;
+    }
+
+    .suitable__block_notebook
+    {
+        margin-bottom: 40px;
+    }
+
+    .block__img 
+    { 
+        min-width: 85px;
+        min-height: 85px;
+    }
+
+
+    .block__clock-img
+    {
+        padding: 0 0 0 160px;
+    }
+
+    .block__clock-text
+    {
+        margin: 0 0 0 35px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .text 
+    {
+        font: 400 22px/1.2 'Roboto', sans-serif;
+        line-height: 26px;
+    }
+    
+    .block__notebook-img 
+    {
+        padding: 0 16px 20px 134px;
+    }
+    
+    .block__notebook-text 
+    {
+        text-align: center;
+    }
+    
+    .suitable__block_target
+    {
+        justify-self: center;
+    }
+
+    .block__target-img 
+    {
+        padding: 0 119px 20px 156px;
+    }
+    
+    .block__target-text 
+    {
+        letter-spacing: 0.3px;
+        padding: 0 0 0 0;
+        text-align: center;
+    }
+
+    .no-time
+    {
+        margin: 0 0 98px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .no-time__late
+    {
+        display: flex;
+        align-items: flex-end;
+        max-width: 1136px;
+    }
+
+    .late__img
+    {
+        padding-top: 45px;
+    }
+
+    .late_content
+    {
+        padding: 130px 0 160px 5%;
+    }
+
+    .late__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding: 0 0 27px;
+    }
+
+    .late__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+        max-width: 400px;
+        min-width: auto;
+        line-height: 24px;
+        letter-spacing: -0.05px;
+    }
+
+    .no-time__deadline
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1136px;
+    }
+
+    .deadline-img
+    {
+        padding: 35px 70px;
+    }
+
+    .deadline_content
+    {
+        padding: 285px 0 0 0;
+    }
+
+    .deadline__header
+    {
+        font: 500 48px/1.26 'Montserrat', sans-serif;
+        padding-bottom: 27px;
+    }
+
+    .deadline__text
+    {
+        font: 400 16px/1.35 'Roboto', sans-serif;
+    }
+
+    .opportunities
+    {
+        margin: 0;
+    }
+
+    .opportunities__header
+    {
+        font: 500 48px 'Montserrat', sans-serif;
+        min-width: 100%;
+        padding: 0 0 0 12%;
+    }
+
+    .opportunities__table
+    {
+        max-width: 1135px;
+        max-height: 411px;
+        margin: 60px auto 288px auto;
+    }
+
+    .table
+    {
+        box-sizing: border-box;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 338px 338px;
+        grid-template-rows: 190px 190px;
+        justify-content: center;
+    }
+
+    .table__block
+    {
+        max-width: 458px;
+        color: #fff;
+        background: #000000;
+        border-radius: 7px;
+        max-height: 242px;
+        display: grid;
+        justify-items: start;
+        padding: 34px 33px 34px 41px;
+    }
+
+    .table__text
+    {
+        font: 400 16px 'Roboto', sans-serif;
+        max-height: 52px;
+        max-width: 287px;
+        margin-top: 10px;
+    }
+
+    .table__image-first
+    {
+        max-width: 37px;
+        max-height: 48px;
+    }
+
+    .table__image-second
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+    .table__image-third
+    {
+        max-width: 45px;
+        max-height: 48px;
+    }
+
+    .table__image-fourth
+    {
+        max-width: 40px;
+        max-height: 48px;
+    }
+
+    .table__image-five
+    {
+        max-width: 49px;
+        max-height: 48px;
+    }
+
+    .table__image-six
+    {
+        max-width: 35px;
+        max-height: 48px;
+    }
+
+    .footer__block
+    {
+        padding: 39px 10% 40px 35%;
+    }
+}
+
+

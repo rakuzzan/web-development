@@ -1,0 +1,25 @@
+.main {
+}
+.main__form {
+}
+.form__input {
+    padding: 21px 27px 21px 28px;
+    margin: 9px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1.4px solid #C0C0C0;   
+	font: 500 18px 'Montserat', sans-serif;
+	min-width: 480px;
+	min-height: 64px;
+}
+.form__button 
+{
+    background: #000000;
+	border-radius: 5px;
+	color: #fff;
+	font: 500 18px 'Montserrat', sans-serif;
+	padding: 21px 125px;
+	margin: 0 0 92px;
+    min-width: 480px;
+	min-height: 64px;
+}
