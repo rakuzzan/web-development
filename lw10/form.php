@@ -1,19 +1,22 @@
-<section class="form">
-   <img src="/images/welcome.svg" class="form__images" alt="">
-   <h2 class="form__title">Записаться на курс</h2>
-   <form method="post" action="/form_handler.php" class="shipment">
-      <input type="text" name="name" placeholder="Ваше имя" class="shipment__window">
-      <input type="email" name="email" placeholder="Email" class="shipment__window">
-      <select name="profession" id="" placeholder="Деятельность" class="shipment__window shipment__choose">
-         <option value="" selected disabled hidden>Деятельность</option>
-         <option class="shipment__choose_elem shipment__choose_elem1">Программист</option>
-         <option class="shipment__choose_elem">Дизайнер</option>
-         <option class="shipment__choose_elem">Маркетолог</option>
-      </select>
-      <div class="checkbox">
-         <input class="agree__btn" type="checkbox" name="checkbox" id="agree">
-         <label class="agree" for="agree">Согласен получать информационные материалы о старте курса</label>
-      </div>
-      <input class="form__button"  type="submit" name="send" value="Записаться на курс">
-   </form>
-</section>
+<div class="form">
+   <div class="form__content">
+   	<img src="images/welcome.png" class="form__image-welcome" alt="welcome">
+      <img src="images/close.svg" class="form__close-popup"alt="close">
+   	<h2 class="form__title">Записаться на курс</h2>
+   	<form class="form__container" action="/form_handler.php" method="POST">
+   		<input type="text" name="first_name" placeholder="Ваше имя" class="form__elementh">
+         <input type="email" name="email" placeholder="Email" class="form__elementh">
+        	 <select name="profession" placeholder="Деятельность" class="form__elementh form__choose">
+            <option value="">Деятельность</option>
+            <option class="form__choose_elem">Программист</option>
+            <option class="form__choose_elem">Дизайнер</option>
+            <option class="form__choose_elem">Маркетолог</option>
+         </select>
+         <div class="form__checkbox-container">
+            <input class="form__checkbox" type="checkbox" name="checkbox" id="agree">
+            <label class="form__checkbox-text" for="agree">Согласен получать информационные материалы о старте курса</label>
+         </div>
+         <input class="form__button button" type="submit" value="Записаться на курс">
+   	</form>
+   </div>
+</div>

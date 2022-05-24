@@ -1,105 +1,110 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Don't do it</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css">
+ 	<title>Don't do it</title>
 </head>
 <body>
-  <header class="header">
-    <img src="images/logo_header.svg" alt="logo-header">
-    <nav class="navigation">
-      <ul class="header__list">
-        <li><a href="#" class="point__link_not-decoration">Что будет на курсе?</a></li>
-        <li><a href="#" class="point__link_not-decoration">Вопросы</a></li>
-        <li><a href="#" class="point__link_not-decoration">Автор</a></li>
-      </ul>
-      <button class="button button__short">Записаться на курс</button>
-    </nav>
-  </header>
-  <main>
-    <section class="top">
-      <div class="top__content">
-        <h1 class="top__title">Не <span class="pink">делай</span> это</h1>
-        <p class="text top__text">Онлайн-курс для творческих людей, о том, как управлять своим временем</p>
-        <button class="button button__long">Записаться на курс</button>
-      </div>
-      <img class="top__img" src="images/top.png" alt="topImage">
-    </section>
+	<header class="header">
+		<img class="header__logo" src="images/logo.svg" alt="logotype"/>
+		<div class="header-right-content">
+			<nav class="header__menu">
+				<ul class="header__inline-list">
+				    <li><a href="#" class="header__nav-link">Что будет на курсе?</a></li>
+					<li><a href="#" class="header__nav-link"></a>Вопросы</li>
+					<li><a href="#" class="header__nav-link"></a>Автор</li>	
+				</ul>
+				<div class="header__button button">Записаться на курс</div>
+			</nav>	
+		</div>
+	</header>
 
-    <section class="features">
-      <div class="features__blocks">
-        <div class="features__first-block">
-          <img src="images/time.png" alt="time">
-          <h3 class="features__description">Для тех, у кого слишком много идей и слишком мало времени</h3>
-        </div>
-        <div class="features__second-block">
-          <img src="images/notebook.png" alt="notebook">
-          <h3 class="features__description">Метод «списка не дел», который позволит успевать и реализовывать</h3>
-        </div>
-        <div class="features__third-block">
-          <img src="images/target.png" alt="target">
-          <h3 class="features__description">Курс научит творческих людей сосредоточиваться</h3>
-        </div>
-      </div>
-    </section>
+	<div class="main">
+		<div class="main__info">
+        	<h1 class="main__title">Не <span class="pink">делай</span> это</h1>   
+        	<p class="main__text">Онлайн-курс для творческих людей, о том, как<br>управлять своим временем</p>
+        	<div class="main__button button">Записаться на курс</div>	
+		</div>
+		<div class="main__illustration">
+			<img src="images/main-illustration.png" alt="chill"/>
+		</div>	
+	</div>
 
-    <section class="reasoning">
-      <div class="reasoning__first-block">
-        <img src="images/finances.png" alt="finances">
-        <div class="reasoning__first-block__text">
-          <h2 class="reasoning__heading">Ты не успеешь</h2>
-          <p class="reasoning__first-block__text-width text">
-            Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей.
-            Как прибавить суткам часы, рассмотрим в нашем курсе.
-          </p>
-        </div>
-      </div>
-      <div class="reasoning__second-block">
-        <div class="reasoning__second-block__text">
-          <h2 class="reasoning__heading">Опять дедлайн</h2>
-          <p class="reasoning__second-block__text-width text">
-            В мире, где столько всего интересного, когда же успевать жить?
-          </p>
-        </div>
-        <img class="reasoning__second-block__img" src="images/mind_blowing.png" alt="mind_blowing">
-      </div>
-    </section>
+	<div class="features">
+		<div class="features__blocks">
+			<div class="features__block features__time">
+				<img src="images/clock.png" alt="clock" />
+                <p class="feature__time-description">Для тех, у кого слишком много идей и слишком мало времени</p>
+			</div>
+			<div class="features__block features__notebook">
+				<img src="images/notebook.png" alt="notebook" />
+                <p class="feature__notebook-description">Метод «списка не дел», который позволит успевать и реализовывать</p>
+			</div>
+			<div class="features__block features__target">
+				<img src="images/target.png" alt="target" />
+                <p class="feature__target-description">Курс научит творческих людей сосредоточиваться</p>
+			</div>
+		</div>
+	</div>
 
-    <section class="description">
-      <h2 class="description__heading">На курсе ты <span class="pink">сможешь</span></h2>
-      <div class="description__blocks">
-        <div class="description__block description__block1">
-          <img src="images/one_finger.png" alt="one-finger">
-          <p class="description__text text">Понять, что нужно делать, а что делать не стоит.</p>
-        </div>
-        <div class="description__block description__block2">
-          <img src="images/two_fingers.png" alt="two-fingers">
-          <p class="description__text text">Перестать себя искусственно ограничивать.</p>
-        </div>
-        <div class="description__block description__block3">
-          <img src="images/three_fingers_first.png" alt="three-fingers-first">
-          <p class="description__text text">Определить сильные стороны и начать использовать слабые.</p>
-        </div>
-        <div class="description__block description__block4">
-          <img src="images/four_fingers.png" alt="four-fingers">
-          <p class="description__text text">Научиться достигать любой цели в 3 понятных шага.</p>
-        </div>
-        <div class="description__block description__block5">
-          <img src="images/five_fingers.png" alt="five-fingers">
-          <p class="description__text text">Сотрудничать эффективно и с правильными людьми.</p>
-        </div>
-        <div class="description__block description__block6">
-          <img src="images/three_fingers_second.png" alt="three-fingers-second">
-          <p class="description__text text">Оптимизировать общение с клиентами и проведение совещаний.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <img src="images/logo_footer.svg" alt="logo-footer">
- </footer>
+	<div class="deadline">
+		<div class="deadline__fail">
+			<div class="deadline__image">
+            	<img src="images/finances.png" alt="finances" />
+            </div>
+      		<div class="deadline__fail-text">
+        		<h2 class="deadline__title deadline__fail-title">Ты не успеешь</h2>
+        		<p class="deadline__description deadline__fail-description">Всех творческих людей объединяет одна проблема - отсутствие времени на<br> реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.</p>
+      		</div>
+		</div>
+		<div class="deadline__again">
+			<div class="deadline__again-text">
+        		<h2 class="deadline__title deadline__again-title">Опять дедлайн</h2>
+        		<p class="deadline__description deadline__again-description">В мире, где столько всего интересного, когда же успевать жить?</p>
+      		</div>
+      		<div class="deadline__image">
+        		<img src="images/blowing.png" alt="blowing" />
+      		</div>
+			
+		</div>
+	</div>
+
+	<div class="opportunities">
+		<h2 class="opportunities__title">На курсе ты <span class="pink">сможешь</span></h2>	
+		<div class="opportunities__blocks">
+			<div class="opportunities__block opportunities__block-first">
+      			<img src="images/hand_one.png" alt="hand first" />
+      			<p class="opportunities__block-description">Понять, что нужно делать, а что делать не стоит.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-second">
+    		  	<img src="images/hand_two.png" alt="hand second" />
+    		  	<p class="opportunities__block-description">Перестать себя искусственно ограничивать.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-third">
+      			<img src="images/hand_three.png" alt="hand third" />
+     			 <p class="opportunities__block-description">Определить сильные стороны и начать использовать слабые.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-fourth">
+    		  	<img src="images/hand_four.png" alt="hand fourth" />
+    		  	<p class="opportunities__block-description">Научиться достигать любой цели в 3 понятных шага.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-fifth">
+      			<img src="images/hand_five.png" alt="hand fifth" />
+     			 <p class="opportunities__block-description">Сотрудничать эффективно и с правильными людьми.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-sixth">
+      			<img src="images/hand_six.png" alt="hand sixth" />
+      			<p class="opportunities__block-description">Оптимизировать общение с клиентами и проведение совещаний.</p>
+    		</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<img class="footer__logo" src="images/logo-white.svg" alt="logotype" />
+	</footer>
+	
 </body>
 </html>
