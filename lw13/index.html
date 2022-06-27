@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preload" href="images/main-illustration.webp" as="image">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap">
+	<link rel="stylesheet" href="css/style.css">
+ 	<title>Don't do it</title>
+</head>
+<body>
+
+    <section class="popup-bg">
+        <div class="popup">
+            <div class="popup__content">
+                <div class="none_column">
+                   <img src="images/welcome.webp" loading="lazy" class="popup__images" alt="">
+                   <button class="btn_close-popup sprite-close"></button>
+                </div>
+                <h2 class="form__title">Записаться на курс</h2>
+                <form class="popup-form" method="POST">
+                   <input class="popup__window" id='name' name="name" type="text" placeholder="Ваше имя">
+                   <input class="popup__window" id="email" name="email" type="text" placeholder="Email">
+                   <select class="popup__window popup__choose" id="profession" name="profession" placeholder="Деятельность">
+                      <option value="" selected disabled hidden>Деятельность</option>
+                      <option class="popup__choose_elem popup__choose_elem1">Программист</option>
+                      <option class="popup__choose_elem">Дизайнер</option>
+                      <option class="popup__choose_elem">Маркетолог</option>
+                   </select>
+                   <div class="checkbox">
+                      <input class="approval_btn" id="agreement" name="checkbox" type="checkbox">
+                      <label class="agreement-text" for="agreement">Согласен получать информационные материалы о старте курса</label>
+                   </div>
+                </form>
+                <button class="form__button">Записаться на курс</button>
+            </div>
+        </div>
+    </section>
+
+	<header class="header">
+		<img class="header__logo" src="images/logo.svg" loading="lazy" alt="logotype"/>
+		<div class="header-right-content">
+			<nav class="header__menu">
+				<ul class="header__inline-list">
+				    <li><a href="#" class="header__nav-link">Что будет на курсе?</a></li>
+					<li><a href="#" class="header__nav-link"></a>Вопросы</li>
+					<li><a href="#" class="header__nav-link"></a>Автор</li>	
+				</ul>
+				<div class="header__button button form__button">Записаться на курс</div>
+			</nav>	
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="main__info">
+        	<h1 class="main__title">Не <span class="pink">делай</span> это</h1>   
+        	<p class="main__text">Онлайн-курс для творческих людей, о том, как<br>управлять своим временем</p>
+        	<div class="main__button button form__button">Записаться на курс</div>
+		</div>
+		<div class="main__illustration">
+			<img src="images/main-illustration.webp" alt="chill"/>
+		</div>	
+	</div>
+
+	<div class="features">
+		<div class="features__blocks">
+			<div class="features__block features__time">
+				<div class="sprite-time"></div>
+                <p class="feature__time-description">Для тех, у кого слишком много идей и слишком мало времени</p>
+			</div>
+			<div class="features__block features__notebook">
+				<div class="sprite-notepad"></div>
+                <p class="feature__notebook-description">Метод «списка не дел», который позволит успевать и реализовывать</p>
+			</div>
+			<div class="features__block features__target">
+				<div class="sprite-target"></div>
+                <p class="feature__target-description">Курс научит творческих людей сосредоточиваться</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="deadline">
+		<div class="deadline__fail">
+			<div class="deadline__image">
+            	<img src="images/finances.webp" loading="lazy" alt="finances" />
+            </div>
+      		<div class="deadline__fail-text">
+        		<h2 class="deadline__title deadline__fail-title">Ты не успеешь</h2>
+        		<p class="deadline__description deadline__fail-description">Всех творческих людей объединяет одна проблема - отсутствие времени на<br> реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.</p>
+      		</div>
+		</div>
+		<div class="deadline__again">
+			<div class="deadline__again-text">
+        		<h2 class="deadline__title deadline__again-title">Опять дедлайн</h2>
+        		<p class="deadline__description deadline__again-description">В мире, где столько всего интересного, когда же успевать жить?</p>
+      		</div>
+      		<div class="deadline__image">
+        		<img src="images/blowing.webp" loading="lazy" alt="blowing" />
+      		</div>
+			
+		</div>
+	</div>
+
+	<div class="opportunities">
+		<h2 class="opportunities__title">На курсе ты <span class="pink">сможешь</span></h2>	
+		<div class="opportunities__blocks">
+			<div class="opportunities__block opportunities__block-first">
+      			<div class="sprite-one_fing"></div>
+      			<p class="opportunities__block-description">Понять, что нужно делать, а что делать не стоит.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-second">
+				<div class="sprite-two_fings"></div>
+    		  	<p class="opportunities__block-description">Перестать себя искусственно ограничивать.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-third">
+				 <div class="sprite-tree_fings_first"></div>
+     			 <p class="opportunities__block-description">Определить сильные стороны и начать использовать слабые.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-fourth">
+				<div class="sprite-four_fings"></div>
+    		  	<p class="opportunities__block-description">Научиться достигать любой цели в 3 понятных шага.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-fifth">
+				 <div class="sprite-five_fings"></div>
+     			 <p class="opportunities__block-description">Сотрудничать эффективно и с правильными людьми.</p>
+    		</div>
+    		<div class="opportunities__block opportunities__block-sixth">
+				<div class="sprite-tree_fings_second"></div>
+      			<p class="opportunities__block-description">Оптимизировать общение с клиентами и проведение совещаний.</p>
+    		</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<img class="footer__logo" src="images/logo-white.svg" alt="logotype" />
+	</footer>
+	<script src="script/script.js"></script>
+</body>
+</html>
